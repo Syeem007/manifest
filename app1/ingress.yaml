@@ -3,7 +3,7 @@ kind: Ingress
 metadata:
   name: nginx-web-ingress
 spec:
-  ingressClassName: nginx
+  ingressClassName: traefik
   rules:
     - host: nginx.home.lab
       http:
